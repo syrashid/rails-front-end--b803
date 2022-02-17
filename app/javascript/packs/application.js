@@ -6,6 +6,12 @@
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import "channels"
+import "controllers";
+import "bootstrap"
 
 Rails.start()
 Turbolinks.start()
+
+console.log("Hello from application.js")
+
+

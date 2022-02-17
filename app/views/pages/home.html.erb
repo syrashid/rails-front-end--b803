@@ -1,6 +1,14 @@
+<%= render 'shared/navbar' %>
+
+<%= render 'shared/banner' %>
+
+
+
+
 <div class="container mt-5">
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
+
+    <img src="<%= asset_url('logo.png') %>" class="card-img-top" alt="...">
 
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
@@ -78,4 +86,10 @@
 </div>
 
 </div>
+
+
+<div class="">
+  <%= image_tag 'logo.png', alt: 'Le Wagon Logo'%>
 </div>
+</div>
+
